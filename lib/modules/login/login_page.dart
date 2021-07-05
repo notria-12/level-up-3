@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:level_up3/modules/sign_up/signup_screen.dart';
 
 class LoginPage extends StatefulWidget {
   @override
@@ -124,7 +125,12 @@ class _LoginPageState extends State<LoginPage> {
                     style: TextStyle(color: Colors.black38),
                   ),
                   TextButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => SignUpScreen()));
+                      },
                       child: Text(
                         "Cadastrar",
                         style: TextStyle(
