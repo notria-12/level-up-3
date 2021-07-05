@@ -5,7 +5,7 @@ Partes iniciais: Login, Cadastro e esqueceu senha
 <img src="login_page.jpeg" alt="TelaLogin"/>
 
 #### Signup Screen
-<img src=sigup_screen.jpeg" alt="signup"/>
+<img src="sigup_screen.jpeg" alt="signup"/>
 ## Getting Started
 
 This project is a starting point for a Flutter application.
